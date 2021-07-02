@@ -1,6 +1,7 @@
 README.md
 setup.py
 xiaolisensor/__init__.py
+xiaolisensor/sonar.py
 xiaolisensor/temperature.py
 xiaolisensor.egg-info/PKG-INFO
 xiaolisensor.egg-info/SOURCES.txt

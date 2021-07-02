@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="xiaolisensor",
-    version="0.0.2",
+    version="0.0.3",
     keywords=("xiaolisensor", "sdk", "xialingming"),
     description="xiaili sensors sdk",
     long_description="xiaoli sensors sdk for python",
@@ -14,5 +14,5 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     platforms="any",
-    install_requires=["dht11"]
+    install_requires=["dht11", "adafruit-circuitpython-hcsr04"]
 )
