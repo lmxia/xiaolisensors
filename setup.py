@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="xiaolisensor",
-    version="0.0.3",
+    version="0.0.4",
     keywords=("xiaolisensor", "sdk", "xialingming"),
     description="xiaili sensors sdk",
     long_description="xiaoli sensors sdk for python",
