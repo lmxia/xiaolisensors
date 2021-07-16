@@ -7,8 +7,8 @@
 
 
 from xiaolisensor import  light
-light = light.Light()
-if light.shiny_or_dark():
+light_sensor = light.Light()
+if light_sensor.shiny_or_dark():
     print("dark now")
 else:
     print("bling bling")

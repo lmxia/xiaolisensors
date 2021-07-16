@@ -9,11 +9,11 @@ import dht11
 class Temp_Hum(object):
     def __init__(self):
         GPIO.setwarnings(False)
-        GPIO.setmode(GPIO.BCM)
+        GPIO.setmode(GPIO.BOARD)
         GPIO.cleanup()
 
         # read data using pin 17
-        self.instance = dht11.DHT11(pin=17)
+        self.instance = dht11.DHT11(pin=11)
 
     def get_temperature(self):
         i = 0
