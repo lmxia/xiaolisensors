@@ -5,13 +5,13 @@ import RPi.GPIO as GPIO
 
 class Light(object):
     def __init__(self):
-        GPIO.setmode(GPIO.BOARD)
-        GPIO.setup(33, GPIO.IN)
+        GPIO.setmode(GPIO.BCM)
+        GPIO.setup(13, GPIO.IN)
 
     @staticmethod
     # false means shiny
     def shiny_or_dark():
-        input_value = GPIO.input(33)
+        input_value = GPIO.input(13)
         return input_value
 
 
